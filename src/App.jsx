@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from "./components/Navbar";
 import LanguageSelector from "./components/LanguageSelect";
 import TextArea from "./components/TextArea";
@@ -112,6 +113,8 @@ const App = () => {
         <TranslateButton onClick={handleText} />
       </div>
       <About />
+      <SpeedInsights />
+      <Analytics />
     </div>
     </form>
   );
