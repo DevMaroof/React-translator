@@ -31,3 +31,16 @@ A responsive translator web application built using React, Tailwind CSS, and the
 ```bash
 npm install
 npm run dev
+```
+
+<h2>Creating your own, follow this instruction below for API</h2>
+
+
+
+Create a `.env` file in the project root and add:
+
+```env
+VITE_RAPID_API_KEY=YOUR_RAPIDAPI_KEY
+```
+You can get your API key from RapidAPI.
+
