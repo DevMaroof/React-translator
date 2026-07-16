@@ -11,7 +11,7 @@ import { fetchText } from "./services/translateApi";
 
 const languages = [
   // Auto Detect
-  { id: "auto", speechLang: "", name: "Auto Detect", flag: "🌐" },
+  { id: "auto", speechLang: "", name: "Select language", flag: "🌐" },
 
   // International Languages
   { id: "en", speechLang: "en-US", name: "English", flag: "🇺🇸" },
