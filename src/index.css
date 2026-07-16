@@ -1,0 +1,24 @@
+@import "tailwindcss";
+*{
+    font-family: 'Ubuntu';
+}
+
+.mainapp{
+    background-color: #11374b;
+    min-height: 100vh;
+    
+}
+
+@media  screen and (max-width: 500px) {
+    .copyBtn{
+        position: absolute;
+        right: 0;
+
+    }
+    .speakBtn{
+        position: absolute;
+        left: 0;
+    }
+}
+
+
