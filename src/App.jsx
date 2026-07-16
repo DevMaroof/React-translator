@@ -112,6 +112,7 @@ const App = () => {
         <TranslateButton onClick={handleText} />
       </div>
       <About />
+      <SpeedInsights />
     </div>
     </form>
   );
