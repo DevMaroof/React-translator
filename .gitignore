@@ -1,0 +1,19 @@
+# Dependencies (Crucial)
+node_modules/
+.pnpm-store/
+
+# Production build outputs
+dist/
+build/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+.env
